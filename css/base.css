@@ -1,0 +1,22 @@
+:root {
+	--branco-principal: #FFFFFF;
+	--cinza-secundario: #C0C0C0;
+	--botao-azul: #167BF7;
+	--botao-azul-claro: #29AEFC;
+	--cor-de-fundo: #00030C;
+
+	--fonte-titulos: 'Inter', sans-serif;
+	--fonte-corpo: 'Inter', sans-serif;
+}
+
+body {
+	background-color: var(--cor-de-fundo);
+
+	font-family: var(--fonte-corpo);
+}
+
+.container {
+	padding: 3rem 4.5rem;
+
+	background-image: url(img/background.png);
+}
